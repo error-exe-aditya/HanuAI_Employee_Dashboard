@@ -1,0 +1,86 @@
+.servicesSection {
+  background-color: transparent;
+  position: relative;
+  z-index: 5;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem; /* Tighter spacing between cards */
+}
+
+.serviceCard {
+  padding: 1.75rem 1.5rem; /* More compact internal padding */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: var(--glass-bg);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid var(--ghost-border);
+  box-shadow: inset 0 0 20px rgba(255,255,255,0.01), var(--ambient-shadow);
+  border-top-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  position: relative;
+  overflow: hidden; /* Constrains the image within the border radius */
+}
+
+/* Base Image acts as the deepest background */
+.cardBackgroundImage {
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+  opacity: 0.25; /* Industry standard for tech backgrounds behind text */
+  filter: grayscale(70%) contrast(1.1); /* Mutes the image to prioritize UI hierarchy */
+  transition: transform 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94), opacity 0.4s ease, filter 0.4s ease;
+}
+
+/* Tint Layer sits immediately above the image */
+.cardOverlayTint {
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+  /* Dark-blue gradient ensuring readable text at the bottom and a softer top */
+  background: linear-gradient(180deg, rgba(15, 25, 48, 0.6) 0%, rgba(9, 19, 40, 0.95) 100%);
+  z-index: 1;
+  transition: opacity 0.4s ease;
+}
+
+/* Pushes all component text and icons above the background */
+.cardContent {
+  position: relative;
+  z-index: 2;
+}
+
+.serviceCard:hover {
+  transform: translateY(-10px); /* Removed standard scale to let the inner background scale do the heavy lifting */
+  border-color: rgba(59, 191, 250, 0.3);
+  box-shadow: inset 0 0 30px rgba(59, 191, 250, 0.05), 0 20px 40px rgba(0,0,0,0.4);
+}
+
+.serviceCard:hover .cardBackgroundImage {
+  transform: scale(1.03); /* Extremely subtle parallax zoom, absolutely no brightness or color shift */
+}
+
+.iconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px; /* Slightly smaller icon container */
+  height: 56px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(59,191,250,0.1), rgba(151,153,255,0.05));
+  border: 1px solid rgba(59,191,250,0.2);
+  box-shadow: 0 0 15px rgba(59,191,250,0.1);
+  color: var(--primary);
+  margin-bottom: 1.25rem; /* Pulled closer to the text */
+  transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.serviceCard:hover .iconWrapper {
+  transform: scale(1.1) rotate(-5deg);
+  box-shadow: 0 0 25px rgba(59,191,250,0.3);
+}

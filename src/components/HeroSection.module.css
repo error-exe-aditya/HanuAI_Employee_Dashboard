@@ -1,0 +1,39 @@
+.heroContainer {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  align-items: center; /* Vertically centers the max-w-container block */
+}
+
+/* ... existing sections ... */
+.heroBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 110%; /* slightly taller for parallax */
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+.heroOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, transparent, rgba(6, 14, 32, 0.2)); /* Very faint transition mapping */
+  pointer-events: none;
+  z-index: 1;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 2;
+  text-align: left; /* Aligns all text directly to the left */
+  padding: 0 2rem;
+  width: 100%; /* Important: Let the max-w-container dictate limits */
+}
