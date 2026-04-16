@@ -15,15 +15,15 @@ export const teamData: EmployeeProject[] = [
   {
     id: "emp1",
     name: "Aniket Kalta",
-    photo: "/images/team/employee-1.png",
+    photo: "/images/team/aniket.jpeg",
     // role: "Senior Machine Learning Engineer",
-    vision: "Passionate about making AI faster, leaner, and accessible at scale.",  // ✅ new field
+    vision: "Interested in building solutions that make a real difference.",  // ✅ new field
     projectName: "GPU optimising dashboard",
     // projectDescription: "Developed a dashboard to optimize GPU performance on the go.",
     bulletPoints: [
-      "Designed machine learning detection pipeline",
-      "Built scalable microservice backend architecture",
-      "Reduced false-positive rates by 42%"
+      "Monitored GPU usage and identified performance bottlenecks.",
+      "Optimized model inference and reduced latency.",
+      "Created visualizations for performance metrics."
     ],
     projectImage: "/images/projects/project-1.png",
     projectLink: "https://example.com/project-1"
@@ -40,22 +40,22 @@ export const teamData: EmployeeProject[] = [
       "Videos with real-time location and timestamp overlay",
       "AI-powered infrastructure detection"
     ],
-    projectImage: "/images/projects/project-2.jpg",
+    projectImage: "/images/projects/nitinpic.png",
     projectLink: "https://example.com/project-2"
   },
   {
     id: "emp3",
     name: "Bhuvandeep Singh",
     photo: "/images/team/Bhuvan.jpg",
-    vision: "Keen interest in developing mobile ready GPU models .",
+    vision: "Powered by Algorithms, driven by Intelligence",
     projectName: "Road anamoly detection mobile app",
     bulletPoints: [
       "Identifies and classifies road defects and road assets",
-      "Built resilient ETL pipelines scaling to PB/day",
-      "Deployed automated data quality checks",
+      "Running complex AI models without any external hardware",
+      "Comprehensive report of all the true detections in real time",
     ],
-    projectImage: "/images/projects/project-3.png",
-    projectLink: "https://example.com/project-3"
+    projectImage: "/images/projects/bhuvanpic.png",
+    projectLink: "https://example.com/"
   },
   {
     id: "emp4",
@@ -69,7 +69,7 @@ export const teamData: EmployeeProject[] = [
       "Individual Performance Predictione",
       "Based on Random Forest Regressor and Structural Time-Series inspired Model"
     ],
-    projectImage: "/images/projects/project-1.png",
+    projectImage: "/images/projects/keshavpic.png",
     projectLink: "https://example.com/project-1"
   },
   {
@@ -83,95 +83,105 @@ export const teamData: EmployeeProject[] = [
       "AI classification of detected sign board into relevant categories",
       "Structured analysis and retrieval of geographically grouped data.",
     ],
-    projectImage: "/images/projects/project-3.png",
+    projectImage: "/images/projects/nikhilpic.png",
     projectLink: "https://example.com/project-3"
   },
   {
     id: "emp6",
-    name: "Bhuvandeep Singh",
-    photo: "/images/team/Bhuvan.jpg",
-    vision: "Keen interest in developing mobile ready GPU models .",
-    projectName: "Road anamoly detection mobile app",
+    name: "Sukhwinder Singh",
+    photo: "/images/team/sukhwinder.png",
+    vision: "Create and implement the pipeline to make task automated",
+    projectName: "Model training automated pipeline ",
     bulletPoints: [
-      "Identifies and classifies road defects and road assets",
-      "Built resilient ETL pipelines scaling to PB/day",
-      "Deployed automated data quality checks",
+      "Annotations, data saved on S3",
+      "Agent will check the repo and start training automately",
+      "Track the process with web portals",
     ],
-    projectImage: "/images/projects/project-3.png",
+    projectImage: "/images/projects/sukhipic.jpg",
     projectLink: "https://example.com/project-3"
   },
   {
     id: "emp7",
-    name: "Bhuvandeep Singh",
-    photo: "/images/team/Bhuvan.jpg",
-    vision: "Keen interest in developing mobile ready GPU models .",
-    projectName: "Road anamoly detection mobile app",
+    name: "Keshav Hari Nanda",
+    photo: "/images/team/keshav.jpg",
+    vision: "Focused on AI R&D and advanced model architectures, building production-grade ML systems and intelligent LLM-powered chatbot solutions.",
+    projectName: "In house transcriber module ",
     bulletPoints: [
-      "Identifies and classifies road defects and road assets",
-      "Built resilient ETL pipelines scaling to PB/day",
-      "Deployed automated data quality checks",
+      "Translates audio to text ",
+      "It supports more than 20+ languages ",
+      "Trained in house for data security",
     ],
-    projectImage: "/images/projects/project-3.png",
+    projectImage: "/images/projects/keshavhpic.jpeg",
     projectLink: "https://example.com/project-3"
   },
   {
     id: "emp8",
-    name: "Bhuvandeep Singh",
-    photo: "/images/team/Bhuvan.jpg",
-    vision: "Keen interest in developing mobile ready GPU models .",
-    projectName: "Road anamoly detection mobile app",
+    name: "Kaushik Kumar Giri",
+    photo: "/images/team/kaushik.png",
+    vision: "Facing technical challenges with persistence",
+    projectName: "PKRMS",
     bulletPoints: [
-      "Identifies and classifies road defects and road assets",
-      "Built resilient ETL pipelines scaling to PB/day",
-      "Deployed automated data quality checks",
+      "Analyse road conditions and calculate maintenance ",
+      "Multi-year work programmes within defined budget constraints",
+      "Generate reports, strip maps, and GIS maps",
     ],
-    projectImage: "/images/projects/project-3.png",
+    projectImage: "/images/projects/kaushikpic.jpg",
     projectLink: "https://example.com/project-3"
   },
   {
     id: "emp9",
-    name: "Aniket",
-    photo: "/images/team/employee-1.png",
-    role: "Senior Machine Learning Engineer",
-    vision: "Passionate about making AI faster, leaner, and accessible at scale.",  // ✅ new field
-    projectName: "GPU optimising dashboard",
-    // projectDescription: "Developed a dashboard to optimize GPU performance on the go.",
+    name: "Sushant, Mukesh and Anurag ",
+    photo: "/images/team/sma.png",
+    vision: "Build solutions that work today and grow tomorrow.",
+    projectName: "Road survey mobile app",
     bulletPoints: [
-      "Designed machine learning detection pipeline",
-      "Built scalable microservice backend architecture",
-      "Reduced false-positive rates by 42%"
+      "AI-detected roads with survey data collection",
+      "Efficient surveyor expense tracking",
+      "Real time data sync and offline support"
     ],
-    projectImage: "/images/projects/project-1.png",
+    projectImage: "/images/projects/smapic.png",
     projectLink: "https://example.com/project-1"
   },
   {
     id: "emp10",
-    name: "Aniket",
-    photo: "/images/team/employee-1.png",
-    role: "Senior Machine Learning Engineer",
-    vision: "Passionate about making AI faster, leaner, and accessible at scale.",  // ✅ new field
-    projectName: "GPU optimising dashboard",
-    // projectDescription: "Developed a dashboard to optimize GPU performance on the go.",
+    name: "Aditya",
+    photo: "/images/team/aditya.jpeg",
+    vision: "Passionate about making AI faster, leaner, and accessible at scale.",
+    projectName: "AI based complaint management system",
     bulletPoints: [
-      "Designed machine learning detection pipeline",
-      "Built scalable microservice backend architecture",
-      "Reduced false-positive rates by 42%"
+      "AI-powered complaint and summon generation",
+      "Real-time tracking and resolution workflows",
+      "Analytics dashboard for service improvement"
     ],
-    projectImage: "/images/projects/project-1.png",
+    projectImage: "/images/projects/adityapic.png",
     projectLink: "https://example.com/project-1"
   },
   {
     id: "emp11",
-    name: "Bhuvandeep Singh",
-    photo: "/images/team/Bhuvan.jpg",
-    vision: "Keen interest in developing mobile ready GPU models .",
-    projectName: "Road anamoly detection mobile app",
+    name: "Ritik",
+    photo: "/images/team/ritik.png",
+    vision: "Backend engineer building scalable systems with a focus on performance and clean architecture",
+    projectName: "Haryana Roads Management system",
     bulletPoints: [
-      "Identifies and classifies road defects and road assets",
-      "Built resilient ETL pipelines scaling to PB/day",
-      "Deployed automated data quality checks",
+      "Built interactive map to visualize Haryana road networks.",
+      "Enabled real-time road data upload and attribute updates.",
+      "Centralized platform for efficient road data management.",
     ],
-    projectImage: "/images/projects/project-3.png",
+    projectImage: "/images/projects/ritikpic.png",
+    projectLink: "https://example.com/project-3"
+  },
+  {
+    id: "emp12",
+    name: "Prabin Kumar Mohanta",
+    photo: "/images/team/prabin.jpeg",
+    vision: "Building Solutions | Leading Teams | Solving Problems | Code. Lead. Solve. Repeat...",
+    projectName: "CPIT",
+    bulletPoints: [
+      "Implemented corridor planning connecting key transport hubs.",
+      "Coordinated data and prioritized strategic road corridors.",
+      "Evaluated corridor feasibility using strategic planning criteria.",
+    ],
+    projectImage: "/images/projects/prabinpic.jpg",
     projectLink: "https://example.com/project-3"
   },
 ];

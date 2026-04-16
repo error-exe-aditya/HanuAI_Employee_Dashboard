@@ -30,8 +30,8 @@ const services = [
     image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=800"
   },
   {
-    title: "Cybersecurity & Defense",
-    description: "Implement zero-trust architectures and continuous threat monitoring.",
+    title: "AI-Powered Road Intelligence",
+    description: "AI-driven solutions for road safety, defect detection, and infrastructure management.",
     icon: <Shield size={32} />,
     image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800"
   },
@@ -48,8 +48,8 @@ const services = [
     image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=800"
   },
   {
-    title: "Autonomous Robotics",
-    description: "Build logic for self-navigating hardware and edge-AI driven physical machines.",
+    title: "Smart Road Survey Systems",
+    description: "process large-scale road imagery using AI to generate accurate survey data.",
     icon: <Cpu size={32} />,
     image: "https://images.unsplash.com/photo-1589254065878-42c9da997008?auto=format&fit=crop&q=80&w=800"
   }
