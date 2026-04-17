@@ -59,9 +59,9 @@ export const teamData: EmployeeProject[] = [
   },
   {
     id: "emp4",
-    name: "Keshav",
-    photo: "/images/team/Keshav.jpeg",
-    vision: "Code that thinks ahead",  // ✅ new field
+    name: "Akshit , Keshav",
+    photo: "/images/team/aandk.png",
+    vision: "Designing the systems you never see—but always rely on.",  // ✅ new field
     projectName: "Attendance Predictive Analytics",
     // projectDescription: "Developed a dashboard to optimize GPU performance on the go.",
     bulletPoints: [
