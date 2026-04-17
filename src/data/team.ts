@@ -8,14 +8,14 @@ export interface EmployeeProject {
   projectDescription?: string;
   bulletPoints: string[];
   projectImage: string;
-  projectLink: string;
+  projectLink?: string;
 }
 
 export const teamData: EmployeeProject[] = [
   {
     id: "emp1",
     name: "Aniket Kalta",
-    photo: "/images/team/aniket.jpeg",
+    photo: "/images/team/aniket (3).jpeg",
     // role: "Senior Machine Learning Engineer",
     vision: "Interested in building solutions that make a real difference.",  // ✅ new field
     projectName: "GPU optimising dashboard",
@@ -26,7 +26,7 @@ export const teamData: EmployeeProject[] = [
       "Created visualizations for performance metrics."
     ],
     projectImage: "/images/projects/project-1.png",
-    projectLink: "https://example.com/project-1"
+    // projectLink: "https://example.com/project-1"
   },
   {
     id: "emp2",
@@ -41,7 +41,7 @@ export const teamData: EmployeeProject[] = [
       "AI-powered infrastructure detection"
     ],
     projectImage: "/images/projects/nitinpic.png",
-    projectLink: "https://example.com/project-2"
+    // projectLink: "https://example.com/project-2"
   },
   {
     id: "emp3",
@@ -55,7 +55,7 @@ export const teamData: EmployeeProject[] = [
       "Comprehensive report of all the true detections in real time",
     ],
     projectImage: "/images/projects/bhuvanpic.png",
-    projectLink: "https://example.com/"
+    // projectLink: "https://example.com/"
   },
   {
     id: "emp4",
@@ -70,7 +70,7 @@ export const teamData: EmployeeProject[] = [
       "Based on Random Forest Regressor and Structural Time-Series inspired Model"
     ],
     projectImage: "/images/projects/keshavpic.png",
-    projectLink: "https://example.com/project-1"
+    // projectLink: "https://example.com/project-1"
   },
   {
     id: "emp5",
@@ -83,8 +83,8 @@ export const teamData: EmployeeProject[] = [
       "AI classification of detected sign board into relevant categories",
       "Structured analysis and retrieval of geographically grouped data.",
     ],
-    projectImage: "/images/projects/nikhilpic.png",
-    projectLink: "https://example.com/project-3"
+    projectImage: "/images/projects/nikhil2pic.png",
+    // projectLink: "https://example.com/project-3"
   },
   {
     id: "emp6",
@@ -98,7 +98,7 @@ export const teamData: EmployeeProject[] = [
       "Track the process with web portals",
     ],
     projectImage: "/images/projects/sukhipic.jpg",
-    projectLink: "https://example.com/project-3"
+    // projectLink: "https://example.com/project-3"
   },
   {
     id: "emp7",
@@ -112,7 +112,7 @@ export const teamData: EmployeeProject[] = [
       "Trained in house for data security",
     ],
     projectImage: "/images/projects/keshavhpic.jpeg",
-    projectLink: "https://example.com/project-3"
+    // projectLink: "https://example.com/project-3"
   },
   {
     id: "emp8",
@@ -126,7 +126,7 @@ export const teamData: EmployeeProject[] = [
       "Generate reports, strip maps, and GIS maps",
     ],
     projectImage: "/images/projects/kaushikpic.jpg",
-    projectLink: "https://example.com/project-3"
+    // projectLink: "https://example.com/project-3"
   },
   {
     id: "emp9",
@@ -140,7 +140,7 @@ export const teamData: EmployeeProject[] = [
       "Real time data sync and offline support"
     ],
     projectImage: "/images/projects/smapic.png",
-    projectLink: "https://example.com/project-1"
+    // projectLink: "https://example.com/project-1"
   },
   {
     id: "emp10",
@@ -154,7 +154,7 @@ export const teamData: EmployeeProject[] = [
       "Analytics dashboard for service improvement"
     ],
     projectImage: "/images/projects/adityapic.png",
-    projectLink: "https://example.com/project-1"
+    // projectLink: "https://example.com/project-1"
   },
   {
     id: "emp11",
@@ -168,7 +168,7 @@ export const teamData: EmployeeProject[] = [
       "Centralized platform for efficient road data management.",
     ],
     projectImage: "/images/projects/ritikpic.png",
-    projectLink: "https://example.com/project-3"
+    // projectLink: "https://example.com/project-3"
   },
   {
     id: "emp12",
@@ -182,6 +182,6 @@ export const teamData: EmployeeProject[] = [
       "Evaluated corridor feasibility using strategic planning criteria.",
     ],
     projectImage: "/images/projects/prabinpic.jpg",
-    projectLink: "https://example.com/project-3"
+    // projectLink: "https://example.com/project-3"
   },
 ];

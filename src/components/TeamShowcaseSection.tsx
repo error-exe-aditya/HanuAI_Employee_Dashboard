@@ -86,7 +86,7 @@ export default function TeamShowcaseSection() {
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img src={member.projectImage} alt={member.projectName} className={styles.projectImage} />
                     <div className={`${styles.projectOverlay} cinematic-glass`}>
-                      <span className="btn-primary">View Project</span>
+                      {/* <span className="btn-primary">View Project</span> */}
                     </div>
                   </div>
                 </a>
